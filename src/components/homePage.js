@@ -32,7 +32,7 @@ export default class homePage extends Component {
   }
   
   getGithub = ( ) => {
-    // const APIKey = "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"
+    
     const URL = "https://api.github.com/users/Ollievand"
     $.get(URL,  function(data) {
       $('#GithubRepos').html(`name : ${data.name},<br></br> id: ${data.id}`)
