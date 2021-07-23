@@ -38,6 +38,7 @@
   "devDependencies": {
     "cypress": "^8.0.0",
     "eslint": "^7.31.0",
-    "jasmine": "^3.8.0"
+    "jasmine": "^3.8.0",
+    "jquery": "^3.6.0"
   }
 }
